@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.206 sec <<< FAILURE!
+testSearch(com.guangyun.Testlog4j)  Time elapsed: 0.903 sec  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [ËÑ¹·ËÑË÷ÒıÇæ - ÉÏÍø´ÓËÑ¹·¿ªÊ¼]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.guangyun.Testlog4j.testSearch(Testlog4j.java:38)
+
+testSubstract(com.guangyun.TestNGLearn)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.guangyun.TestNGLearn.testSubstract(TestNGLearn.java:19)
+

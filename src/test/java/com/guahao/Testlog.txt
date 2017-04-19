@@ -1,0 +1,50 @@
+package com.guahao;
+
+import com.tool.Logtool;
+import org.apache.log4j.xml.DOMConfigurator;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+
+/**
+ * Created by 001117030057 on 2017/4/9.
+ */
+public class Testlog {
+    public WebDriver driver;
+    @Test
+    public void testSearch() {
+        Logtool.startTestCase("测试开始：搜索");
+        driver.get("https://www.sogou.com/");
+        Logtool.info("打开搜狗首页");
+        driver.findElement(By.id("query")).sendKeys("光荣之路自动化测试");
+        Logtool.info("输入关键字：光荣之路自动化测试");
+        driver.findElement(By.id("stb")).click();
+        Logtool.info("单击搜索按钮");
+        String expectedTitle = "光荣之路自动化测试";
+        Logtool.info("实际值和预期值比较开始：");
+        String actualTitle = driver.getTitle();
+        Assert.assertEquals(actualTitle,expectedTitle);
+        Logtool.endTestCase("测试结束，请查看结果");
+    }
+
+    @BeforeMethod
+    public void beforeMethod() {
+        System.setProperty("webdriver.chrome.driver", "D:\\drivers\\chromedriver.exe");
+         driver = new ChromeDriver();
+    }
+    @AfterMethod
+    public void afterMethod() {
+        driver.quit();
+    }
+    @BeforeClass
+    public void beforeClass(){
+        DOMConfigurator.configure(System.getProperty("user.dir") + "\\src\\test\\resources\\log4j.xml");
+//        DOMConfigurator.configure("log4j.xml");
+    }
+}

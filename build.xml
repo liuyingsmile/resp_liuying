@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name= "lytest" basedir= ".">
+
+    <property name= "lib.dir" value= "D:\software\testng-xslt-1.1 2\testng-xslt-1.1\lib" />
+
+    <path id= "test.classpath" >
+
+        <!-- adding the saxon jar to your classpath -->
+
+        <fileset dir= "${lib.dir}" includes= "*.jar" />
+
+    </path>
+
+    <target name= "transform" >
+
+        <xslt in= "D:\programe\lytest\target\surefire-reports\testng-results.xml"
+              style= "D:\programe\lytest\test-output\testng-results.xsl"
+              out= "D:\programe\lytest\test-output\index1.html " >
+            <param name= "testNgXslt.outputDir" expression= "D:\programe\lytest\test-output" />
+
+            <classpath refid= "test.classpath"/>
+
+        </xslt>
+
+    </target>
+
+</project>

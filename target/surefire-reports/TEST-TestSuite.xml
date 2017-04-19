@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="2" name="TestSuite" time="5.199" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Program\Java\jdk1.8.0_91\jre\bin"/>
+    <property name="java.vm.version" value="25.91-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\programe\ly"/>
+    <property name="java.runtime.version" value="1.8.0_91-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="D:\programe\ly"/>
+    <property name="java.endorsed.dirs" value="D:\Program\Java\jdk1.8.0_91\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="C:\Users\001117~1\AppData\Local\Temp\surefirebooter4269232977739936586.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\001117~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="jnidispatch.path" value="C:\Users\001117~1\AppData\Local\Temp\jna-330733291\jna7255773053141369721.dll"/>
+    <property name="java.library.path" value="D:\Program\Java\jdk1.8.0_91\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program\TortoiseGit\bin;D:\Program\git\Git\cmd;D:\Program\Java\apache-maven-3.3.9\bin;D:\Program\Java\jdk1.8.0_91\bin;D:\Program\Java\jdk1.8.0_91\jre\bin;D:/drivers;D:\software\apache-ant-1.9.9-bin\bin;D:\Program\git\Git\bin;."/>
+    <property name="surefire.test.class.path" value="D:\programe\ly\target\test-classes;D:\programe\ly\target\classes;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-server\3.3.1\selenium-server-3.3.1.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-java\3.3.1\selenium-java-3.3.1.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.3.1\selenium-chrome-driver-3.3.1.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.3.1\selenium-remote-driver-3.3.1.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-api\3.3.1\selenium-api-3.3.1.jar;C:\Users\001117030057\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Users\001117030057\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\001117030057\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\001117030057\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\001117030057\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\001117030057\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\001117030057\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\001117030057\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.3.1\selenium-edge-driver-3.3.1.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.3.1\selenium-firefox-driver-3.3.1.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.3.1\selenium-ie-driver-3.3.1.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.3.1\selenium-opera-driver-3.3.1.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.3.1\selenium-safari-driver-3.3.1.jar;C:\Users\001117030057\.m2\repository\com\codeborne\phantomjsdriver\1.4.0\phantomjsdriver-1.4.0.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.24\htmlunit-driver-2.24.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-support\3.3.1\selenium-support-3.3.1.jar;C:\Users\001117030057\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\001117030057\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\001117030057\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.24\htmlunit-2.24.jar;C:\Users\001117030057\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\001117030057\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\001117030057\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\001117030057\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\001117030057\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\001117030057\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.23\htmlunit-core-js-2.23.jar;C:\Users\001117030057\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.24\neko-htmlunit-2.24.jar;C:\Users\001117030057\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\001117030057\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\001117030057\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.21\cssparser-0.9.21.jar;C:\Users\001117030057\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\001117030057\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\001117030057\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\001117030057\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.20.v20161216\websocket-client-9.2.20.v20161216.jar;C:\Users\001117030057\.m2\repository\org\eclipse\jetty\jetty-util\9.2.20.v20161216\jetty-util-9.2.20.v20161216.jar;C:\Users\001117030057\.m2\repository\org\eclipse\jetty\jetty-io\9.2.20.v20161216\jetty-io-9.2.20.v20161216.jar;C:\Users\001117030057\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.20.v20161216\websocket-common-9.2.20.v20161216.jar;C:\Users\001117030057\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.20.v20161216\websocket-api-9.2.20.v20161216.jar;C:\Users\001117030057\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\001117030057\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.1.v20170120\jetty-repacked-9.4.1.v20170120.jar;C:\Users\001117030057\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\001117030057\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar;C:\Users\001117030057\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\001117030057\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\001117030057\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\001117030057"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="001117030057"/>
+    <property name="java.class.path" value="D:\programe\ly\target\test-classes;D:\programe\ly\target\classes;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-server\3.3.1\selenium-server-3.3.1.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-java\3.3.1\selenium-java-3.3.1.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.3.1\selenium-chrome-driver-3.3.1.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.3.1\selenium-remote-driver-3.3.1.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-api\3.3.1\selenium-api-3.3.1.jar;C:\Users\001117030057\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Users\001117030057\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\001117030057\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\001117030057\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\001117030057\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\001117030057\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\001117030057\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\001117030057\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.3.1\selenium-edge-driver-3.3.1.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.3.1\selenium-firefox-driver-3.3.1.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.3.1\selenium-ie-driver-3.3.1.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.3.1\selenium-opera-driver-3.3.1.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.3.1\selenium-safari-driver-3.3.1.jar;C:\Users\001117030057\.m2\repository\com\codeborne\phantomjsdriver\1.4.0\phantomjsdriver-1.4.0.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.24\htmlunit-driver-2.24.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\selenium-support\3.3.1\selenium-support-3.3.1.jar;C:\Users\001117030057\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\001117030057\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\001117030057\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.24\htmlunit-2.24.jar;C:\Users\001117030057\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\001117030057\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\001117030057\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\001117030057\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\001117030057\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\001117030057\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.23\htmlunit-core-js-2.23.jar;C:\Users\001117030057\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.24\neko-htmlunit-2.24.jar;C:\Users\001117030057\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\001117030057\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\001117030057\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.21\cssparser-0.9.21.jar;C:\Users\001117030057\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\001117030057\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\001117030057\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\001117030057\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.20.v20161216\websocket-client-9.2.20.v20161216.jar;C:\Users\001117030057\.m2\repository\org\eclipse\jetty\jetty-util\9.2.20.v20161216\jetty-util-9.2.20.v20161216.jar;C:\Users\001117030057\.m2\repository\org\eclipse\jetty\jetty-io\9.2.20.v20161216\jetty-io-9.2.20.v20161216.jar;C:\Users\001117030057\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.20.v20161216\websocket-common-9.2.20.v20161216.jar;C:\Users\001117030057\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.20.v20161216\websocket-api-9.2.20.v20161216.jar;C:\Users\001117030057\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\001117030057\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\001117030057\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.1.v20170120\jetty-repacked-9.4.1.v20170120.jar;C:\Users\001117030057\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\001117030057\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar;C:\Users\001117030057\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\001117030057\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\001117030057\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\Program\Java\jdk1.8.0_91\jre"/>
+    <property name="sun.java.command" value="C:\Users\001117~1\AppData\Local\Temp\surefirebooter4269232977739936586.jar C:\Users\001117~1\AppData\Local\Temp\surefire6673871026586740407tmp C:\Users\001117~1\AppData\Local\Temp\surefire4492872361282828294tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="java.ext.dirs" value="D:\Program\Java\jdk1.8.0_91\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Program\Java\jdk1.8.0_91\jre\lib\resources.jar;D:\Program\Java\jdk1.8.0_91\jre\lib\rt.jar;D:\Program\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;D:\Program\Java\jdk1.8.0_91\jre\lib\jsse.jar;D:\Program\Java\jdk1.8.0_91\jre\lib\jce.jar;D:\Program\Java\jdk1.8.0_91\jre\lib\charsets.jar;D:\Program\Java\jdk1.8.0_91\jre\lib\jfr.jar;D:\Program\Java\jdk1.8.0_91\jre\classes"/>
+    <property name="webdriver.chrome.driver" value="D:\drivers\chromedriver.exe"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="C:\Users\001117030057\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.guangyun.Testlog4j" name="testSearch" time="0.897">
+    <failure message="expected [] but found [搜狗搜索引擎 - 上网从搜狗开始]" type="java.lang.AssertionError">java.lang.AssertionError: expected [] but found [搜狗搜索引擎 - 上网从搜狗开始]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.guangyun.Testlog4j.testSearch(Testlog4j.java:38)
+</failure>
+  </testcase>
+  <testcase classname="com.guangyun.TestNGLearn" name="testEquals" time="0.001"/>
+  <testcase classname="com.guangyun.TestNGLearn" name="testSubstract" time="0">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.guangyun.TestNGLearn.testSubstract(TestNGLearn.java:19)
+</failure>
+  </testcase>
+  <testcase classname="com.guangyun.TestNGLearn1" name="testAdd" time="0"/>
+</testsuite>

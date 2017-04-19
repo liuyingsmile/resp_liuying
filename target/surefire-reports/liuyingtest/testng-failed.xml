@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [liuyingtest]">
+  <test name="Testlog(failed)">
+    <classes>
+      <class name="com.guangyun.Testlog4j">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="testSearch"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.guangyun.Testlog4j -->
+    </classes>
+  </test> <!-- Testlog(failed) -->
+  <test name="TestNGLearn(failed)">
+    <classes>
+      <class name="com.guangyun.Testlog4j">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.guangyun.Testlog4j -->
+      <class name="com.guangyun.TestNGLearn">
+        <methods>
+          <include name="testSubstract"/>
+        </methods>
+      </class> <!-- com.guangyun.TestNGLearn -->
+    </classes>
+  </test> <!-- TestNGLearn(failed) -->
+</suite> <!-- Failed suite [liuyingtest] -->
