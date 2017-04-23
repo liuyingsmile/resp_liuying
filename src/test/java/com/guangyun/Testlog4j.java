@@ -24,7 +24,7 @@ public class Testlog4j {
     public WebDriver driver;
 
     @Test
-    public void testSearch() {
+    public void testSearch() throws Exception {
         Logtool.startTestCase("");
         driver.get("https://www.sogou.com/");
         Logtool.info("");

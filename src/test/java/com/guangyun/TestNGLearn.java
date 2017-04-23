@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
  */
 public class TestNGLearn {
     @Test
-    public void testEquals() {
+    public void testEquals() throws Exception{
         String str = "abc";
         Assert.assertEquals("abc", str);
     }

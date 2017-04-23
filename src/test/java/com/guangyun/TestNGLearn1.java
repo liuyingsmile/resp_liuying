@@ -12,7 +12,7 @@ public class TestNGLearn1{
 
 
     @Test
-    public void testAdd() {
+    public void testAdd() throws Exception {
         int a = 1+3;
         Assert.assertTrue(a==4);
     }
