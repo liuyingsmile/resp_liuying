@@ -15,4 +15,9 @@
             <class name="com.guangyun.TestNGLearn1"></class>
         </classes>
     </test>
+    <test name="TestSelectDate">
+        <classes>
+            <class name="com.guangyun.TestSelectDate"></class>
+        </classes>
+    </test>
 </suite>
