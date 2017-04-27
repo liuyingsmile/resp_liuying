@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <suite name="liuyingtest" parallel="false">
-    <test name="Testlog">
+    <!--<test name="Testlog">-->
+        <!--<classes>-->
+            <!--<class name="com.guangyun.Testlog4j"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="TestNGLearn">-->
+        <!--<classes>-->
+            <!--<class name="com.guangyun.TestNGLearn"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="TestNGLearn1">-->
+        <!--<classes>-->
+            <!--<class name="com.guangyun.TestNGLearn1"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <test name="TestSelectDate">
         <classes>
-            <class name="com.guangyun.Testlog4j"></class>
-        </classes>
-    </test>
-    <test name="TestNGLearn">
-        <classes>
-            <class name="com.guangyun.TestNGLearn"></class>
-        </classes>
-    </test>
-    <test name="TestNGLearn1">
-        <classes>
-            <class name="com.guangyun.TestNGLearn1"></class>
+            <class name="com.guangyun.TestSelectDate"></class>
         </classes>
     </test>
 </suite>

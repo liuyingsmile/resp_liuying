@@ -1,21 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.206 sec <<< FAILURE!
-testSearch(com.guangyun.Testlog4j)  Time elapsed: 0.903 sec  <<< FAILURE!
-java.lang.AssertionError: expected [] but found [ËÑ¹·ËÑË÷ÒıÇæ - ÉÏÍø´ÓËÑ¹·¿ªÊ¼]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at org.testng.Assert.assertEquals(Assert.java:186)
-	at com.guangyun.Testlog4j.testSearch(Testlog4j.java:38)
-
-testSubstract(com.guangyun.TestNGLearn)  Time elapsed: 0.001 sec  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.guangyun.TestNGLearn.testSubstract(TestNGLearn.java:19)
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.246 sec <<< FAILURE!
+testSelectDate(com.guangyun.TestSelectDate)  Time elapsed: 0.875 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchFrameException: No frame element found by name or id iframe
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: '001117030057-PC', ip: '192.168.1.106', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:943)
+	at com.guangyun.TestSelectDate.testSelectDate(TestSelectDate.java:37)
 

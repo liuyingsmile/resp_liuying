@@ -8,9 +8,6 @@ import org.testng.annotations.Test;
  */
 
 public class TestNGLearn1{
-
-
-
     @Test
     public void testAdd() throws Exception {
         int a = 1+3;
