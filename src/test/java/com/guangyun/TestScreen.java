@@ -27,12 +27,12 @@ public class TestScreen{
     private String baseUrl;
     @BeforeClass
     public void beforeClass(){
-        baseUrl = "http://baidu.com";
+        java.lang.String baseUrl = "http://baidu.com";
         System.setProperty("webdriver.chrome.driver","D:\\drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(baseUrl);
-        driver.findElement(By.xpath(".//*[@id='taobaoNick']")).sendKeys("梦曼欣");
+        driver.findElement(By.xpath(".//*[@id='kw']"));
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
     @AfterClass
@@ -43,7 +43,6 @@ public class TestScreen{
     public void testScreen() throws InterruptedException, IOException {
         File screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         Thread.sleep(3000);
-        //对sogo首页进行截屏
         FileUtils.copyFile(screenshot, new File("d:\\sogouHomePage_actual.jpg"));
         //生成了两个文件对象，一个是期望的图片，一个是实际测试过程中产生的图片
         File fileInput = new File("d:\\sogouHomePage_expected.jpg");
@@ -78,7 +77,8 @@ public class TestScreen{
         }
         else
             matchFlag = false;
-        Assert.assertTrue("测试过程中截图与期望截图不一致", java.lang.String.valueOf(matchFlag));
+
+       Assert.assertTrue(matchFlag);
     }
 }
 
