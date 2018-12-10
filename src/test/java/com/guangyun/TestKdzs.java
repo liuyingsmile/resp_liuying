@@ -26,7 +26,7 @@ public class TestKdzs {
     @Test
     public void beforeClass() {
         //登录kdzs后台
-        baseUrl = "http://backend.kuaidizs.com/bs/kdzs.jsp?taobaoId=1&taobaoNick=1&code=33102219870215149813675815301";
+      
         System.setProperty("webdriver.gecko.driver", "D:\\drivers\\geckodriver.exe");
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
